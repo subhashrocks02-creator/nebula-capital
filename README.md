@@ -1,6 +1,4 @@
-# Go Ahead, Friend
-
-Proceed with this plan
+# Nebula Capital Advisory Pvt. Ltd.
 
 This project was built with [Lovable](https://lovable.dev).
 
