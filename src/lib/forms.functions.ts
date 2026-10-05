@@ -31,7 +31,7 @@ const applicationSchema = z.object({
 });
 
 export const sendContactMessage = createServerFn({ method: "POST" })
-  .inputValidator((data: unknown) => contactSchema.parse(data))
+  .validator((data: unknown) => contactSchema.parse(data))
   .handler(async ({ data }) => {
     const { sendMail, rowsToHtml, rowsToText, submittedAt } = await import("./email.server");
 
@@ -56,7 +56,7 @@ export const sendContactMessage = createServerFn({ method: "POST" })
   });
 
 export const sendJobApplication = createServerFn({ method: "POST" })
-  .inputValidator((data: unknown) => applicationSchema.parse(data))
+  .validator((data: unknown) => applicationSchema.parse(data))
   .handler(async ({ data }) => {
     const name = data.resumeName.toLowerCase();
     if (!/\.(pdf|doc|docx)$/.test(name)) {
