@@ -42,7 +42,7 @@ function JobPage() {
           >
             <ArrowLeft className="h-4 w-4" aria-hidden="true" /> All open positions
           </Link>
-          <p className="eyebrow-on-ink mt-8">{job.department}</p>
+          <p className="eyebrow-on-ink mt-8 gap-x-2 flex  "> {job.department}</p>
           <h1 className="mt-4 text-4xl font-bold text-ink-foreground md:text-5xl">{job.title}</h1>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-ink-muted">{job.description}</p>
 
