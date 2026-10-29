@@ -44,7 +44,7 @@ const reasons = [
   },
   {
     icon: Database,
-    title: "Data & Analytics",
+    title: "Data-Driven Insights",
     body: "Data is central to how we review performance, monitor processes and improve workflows.",
   },
   {
