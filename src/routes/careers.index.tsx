@@ -14,13 +14,13 @@ export const Route = createFileRoute("/careers/")({
       {
         name: "description",
         content:
-          "Open roles at Nebula Capital Advisory Pvt. Ltd. in Pune — Data Analyst, Data Engineer and Telesales Executive. Apply online with your resume.",
+          "Open roles at Nebula Capital Advisory Pvt. Ltd. in Pune. Apply online with your resume.",
       },
       { property: "og:title", content: "Careers at Nebula Capital | Pune" },
       {
         property: "og:description",
         content:
-          "Join a proprietary trading firm in Pune. Current openings across data, technology and business development.",
+          "Join a proprietary trading firm in Pune. Current openings across analytics, technology and business development.",
       },
     ],
   }),
